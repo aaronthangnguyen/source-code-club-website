@@ -1,11 +1,19 @@
 import { Typography } from "@mui/material";
+import { Box } from "@mui/system";
 import React from "react";
 import Link from "../../src/Link";
 
 const Footer = () => {
   return (
-    <>
-      <Typography variant="body2" color="text.secondary" align="center">
+    <Box
+      sx={{
+        display: "flex",
+        height: "3rem",
+        alignItems: "center",
+        justifyContent: "space-around",
+      }}
+    >
+      <Typography variant="body2" color="text.secondary">
         {"Built with React.js, Next.js, and MUI by "}
         <Link color="inherit" href="https://www.aaronnguyen.dev/">
           Aaron T. Nguyen
@@ -13,7 +21,7 @@ const Footer = () => {
         {" in "}
         {new Date().getFullYear()}.
       </Typography>
-    </>
+    </Box>
   );
 };
 
