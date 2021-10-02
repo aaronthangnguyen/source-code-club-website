@@ -6,13 +6,13 @@ import Navbar from "../navbar/Navbar";
 const Layout = ({ children }) => {
   return (
     <Box minHeight="100vh" display="flex" flexDirection="column">
-      <Box component="header">
+      <Box>
         <Navbar />
       </Box>
-      <Box component="main">
+      <Box>
         <Container sx={{ mt: 2 }}>{children}</Container>
       </Box>
-      <Box component="footer" sx={{ mb: 1, mt: "auto" }}>
+      <Box sx={{ mt: "auto" }}>
         <Footer />
       </Box>
     </Box>
