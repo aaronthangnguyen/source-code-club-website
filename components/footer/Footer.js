@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <Box
       sx={{
+        mt: 4,
+        mb: 2,
         display: "flex",
-        height: "3rem",
-        alignItems: "center",
         justifyContent: "space-around",
       }}
     >

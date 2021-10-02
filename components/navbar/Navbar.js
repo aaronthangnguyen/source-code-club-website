@@ -15,7 +15,7 @@ import navlinksData from "../data/navlinks-data";
 
 const Navbar = () => {
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1, mb: 4 }}>
       <AppBar position="static">
         <Container maxWidth="lg">
           <Toolbar disableGutters={true}>

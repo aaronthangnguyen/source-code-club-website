@@ -5,12 +5,18 @@ import Navbar from "../navbar/Navbar";
 
 const Layout = ({ children }) => {
   return (
-    <Box minHeight="100vh" display="flex" flexDirection="column">
+    <Box
+      sx={{
+        height: "100vh",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
       <Box>
         <Navbar />
       </Box>
       <Box>
-        <Container sx={{ mt: 2 }}>{children}</Container>
+        <Container>{children}</Container>
       </Box>
       <Box sx={{ mt: "auto" }}>
         <Footer />
