@@ -1,10 +1,10 @@
-import * as React from "react";
 import { Grid } from "@mui/material";
-import EventList from "../components/event-list/EventList";
+import * as React from "react";
 import About from "../components/about/About";
-import Team from "../components/team/Team";
-import ProjectList from "../components/project-list/ProjectList";
+import EventList from "../components/event-list/EventList";
 import Layout from "../components/layout/Layout";
+import MemberList from "../components/member-list/MemberList";
+import ProjectList from "../components/project-list/ProjectList";
 
 export default function Index() {
   return (
@@ -20,7 +20,7 @@ export default function Index() {
           <ProjectList />
         </Grid>
         <Grid item xs={12}>
-          <Team />
+          <MemberList />
         </Grid>
       </Grid>
     </Layout>

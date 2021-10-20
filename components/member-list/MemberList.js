@@ -1,15 +1,16 @@
-import { Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
+import { Box } from "@mui/system";
 import React from "react";
 
-const About = () => {
+const MemberList = () => {
   return (
     <Box>
       <Typography variant="h5" marginBottom={1}>
-        👨‍💻 Who Are We?
+        👋 Say Hi To Us!
       </Typography>
       <Typography color="text.secondary">Work-in-progress...</Typography>
     </Box>
   );
 };
 
-export default About;
+export default MemberList;
