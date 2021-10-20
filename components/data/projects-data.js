@@ -12,8 +12,16 @@ const projectsData = [
     name: "Check-in App",
     url: "/",
     description:
-      "To check-in students attending scheduled appointments with tutors, collect anonymous data for research purposes",
+      "Check-in students attending scheduled appointments with tutors, collect anonymous data for research purposes",
     category: ["Web Dev"],
+  },
+  {
+    id: 2,
+    name: "Halloween",
+    url: "/",
+    description:
+      "Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    category: ["Game Dev"],
   },
 ];
 

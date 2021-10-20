@@ -32,7 +32,7 @@ const Event = ({ data }) => {
         </Typography>
 
         <Typography variant="subtitle2" fontWeight={400}>
-          <Chip label={data.instructor} size="small" color="secondary" />
+          <Chip label={data.organizer} size="small" color="secondary" />
           &emsp;
           {data.time}
           &emsp;
