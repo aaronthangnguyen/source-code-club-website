@@ -19,7 +19,7 @@ const EventList = () => {
       </Typography>
 
       {/* Events */}
-      <Stack spacing={1.5}>
+      <Stack spacing={1}>
         {events.map((event) => (
           <Event key={event.id} data={event} />
         ))}
