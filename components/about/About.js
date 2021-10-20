@@ -7,6 +7,7 @@ const About = () => {
       <Typography variant="h5" marginBottom={1}>
         👨‍💻 Who Are We?
       </Typography>
+      <Typography color="text.secondary">Work-in-progress...</Typography>
     </Box>
   );
 };

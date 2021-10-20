@@ -8,6 +8,7 @@ const MemberList = () => {
       <Typography variant="h5" marginBottom={1}>
         👋 Say Hi To Us!
       </Typography>
+      <Typography color="text.secondary">Work-in-progress...</Typography>
     </Box>
   );
 };
