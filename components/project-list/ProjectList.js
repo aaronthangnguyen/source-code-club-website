@@ -17,8 +17,8 @@ const ProjectList = () => {
         🚀 Projects
       </Typography>
       <Stack
-        direction={{ xs: "column", sm: "row" }}
-        spacing={1.5}
+        direction={{ sm: "column", md: "row" }}
+        spacing={1}
         justifyContent="flex-start"
       >
         {projects.map((project) => (
