@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <Box height="100vh" display="flex" flexDirection="column" gap={4}>
       <Navbar />
-      <Container>{children}</Container>
+      <Container component="main">{children}</Container>
       <Footer />
     </Box>
   );

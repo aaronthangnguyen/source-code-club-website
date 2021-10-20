@@ -16,7 +16,7 @@ import Link from "../../src/Link";
 
 const Navbar = () => {
   return (
-    <AppBar position="static">
+    <AppBar position="static" component="nav">
       <Container maxWidth="lg">
         <Toolbar disableGutters={true}>
           {/* Navbar Title */}
