@@ -1,14 +1,12 @@
-import React from "react";
 import { Box, Typography } from "@mui/material";
-import { DeveloperMode as DeveloperModeIcon } from "@mui/icons-material";
-import IconTypography from "../shared/IconTypography";
+import React from "react";
 
 const About = () => {
   return (
     <Box>
-      <IconTypography icon={<DeveloperModeIcon />}>
-        Source Code Club
-      </IconTypography>
+      <Typography variant="h5" marginBottom={1}>
+        👨‍💻 Source Code Club
+      </Typography>
     </Box>
   );
 };

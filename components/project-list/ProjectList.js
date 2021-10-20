@@ -1,9 +1,7 @@
-import { FolderOpen as FolderOpenIcon } from "@mui/icons-material";
-import { Stack } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import projectsData from "../data/projects-data";
-import IconTypography from "../shared/IconTypography";
 import Project from "./Project";
 
 const ProjectList = () => {
@@ -15,7 +13,9 @@ const ProjectList = () => {
   }, []);
   return (
     <Box>
-      <IconTypography icon={<FolderOpenIcon />}>Projects</IconTypography>
+      <Typography variant="h5" marginBottom={1}>
+        🚀 Projects
+      </Typography>
       <Stack
         direction={{ xs: "column", sm: "row" }}
         spacing={1.5}

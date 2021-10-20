@@ -1,11 +1,8 @@
-import { Event as EventIcon } from "@mui/icons-material";
 import { Stack, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import React, { useState, useEffect } from "react";
-import Event from "./Event";
-
+import React, { useEffect, useState } from "react";
 import eventsData from "../data/events-data";
-import IconTypography from "../shared/IconTypography";
+import Event from "./Event";
 
 const EventList = () => {
   const [events, setEvents] = useState([]);
@@ -17,7 +14,9 @@ const EventList = () => {
   return (
     <Box>
       {/* Title */}
-      <IconTypography icon={<EventIcon />}>Events</IconTypography>
+      <Typography variant="h5" marginBottom={1}>
+        🎉 Events
+      </Typography>
 
       {/* Events */}
       <Stack spacing={1.5}>

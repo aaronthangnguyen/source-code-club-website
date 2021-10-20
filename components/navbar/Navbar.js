@@ -21,7 +21,6 @@ const Navbar = () => {
         <Toolbar disableGutters={true}>
           {/* Navbar Title */}
           {/* disableGutters: Remove x-axis margin*/}
-          <CodeIcon fontSize="medium" sx={{ mr: 0.5 }} />
           <Typography
             variant="h6"
             color="inherit"
@@ -29,7 +28,7 @@ const Navbar = () => {
             flexGrow={1}
             sx={{ textTransform: "uppercase" }}
           >
-            SCC @ VW
+            ⚡️ SCC @ VW
           </Typography>
 
           {/* Links */}
