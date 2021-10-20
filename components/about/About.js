@@ -5,7 +5,7 @@ const About = () => {
   return (
     <Box>
       <Typography variant="h5" marginBottom={1}>
-        👨‍💻 Source Code Club
+        👨‍💻 Who Are We?
       </Typography>
     </Box>
   );
